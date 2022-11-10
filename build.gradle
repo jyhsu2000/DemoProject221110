@@ -1,9 +1,14 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'com.github.jyhsu2000'
 version '1.0-SNAPSHOT'
+
+application {
+    mainClassName 'com.github.jyhsu2000.Main'
+}
 
 repositories {
     mavenCentral()
